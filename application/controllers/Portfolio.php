@@ -5,8 +5,6 @@ class Portfolio extends CI_Controller {
 
 	public function index()
 	{
-		echo 'lalal';
-		$this->load->view('portfolio');
-		
+		$this->load->view('portfolio');	
 	}
 }
