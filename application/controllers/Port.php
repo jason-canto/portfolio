@@ -5,6 +5,8 @@ class Port extends CI_Controller {
 
 	public function index()
 	{
+		echo 'port';
 		$this->load->view('portfolio');
+		
 	}
 }
