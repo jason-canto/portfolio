@@ -11,8 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Bem vindo!</h1>
 
 	<div id="body">
-		<p>Este eh meu portfolio em php</p>
-		<code>Divirta-se</code>
+		<code>Este eh meu portfolio em php</code>
 	</div>
 </div>
 
