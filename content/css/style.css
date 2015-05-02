@@ -1,0 +1,15 @@
+body{
+	background-color: #EBF5FA;
+	margin:50px 0px; padding:0px;
+	text-align:center;
+}
+#page{
+	background-color: #FFFFFF;
+	max-width:1200px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	min-height: 500px;
+	
+}

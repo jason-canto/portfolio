@@ -1,16 +1,14 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
 	<title>Jason Canto</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('content/css/style.css'); ?>">
 </head>
 <body>
 
-<div id="container">
+<div id="page">
 	<h1>Bem vindo!</h1>
-
-	<div id="body">
+	<div>
 		<code>Este eh meu portfolio em php</code>
 	</div>
 </div>
