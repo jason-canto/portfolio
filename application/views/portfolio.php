@@ -11,6 +11,7 @@
 	<div>
 		<code>Este eh meu portfolio em php</code>
 	</div>
+	<?php $this->load->view('menu');?>
 </div>
 
 </body>

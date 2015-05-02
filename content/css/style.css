@@ -2,6 +2,7 @@ body{
 	background-color: #EBF5FA;
 	margin:50px 0px; padding:0px;
 	text-align:center;
+	font-family: monospace;
 }
 #page{
 	background-color: #FFFFFF;
