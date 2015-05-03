@@ -7,11 +7,11 @@
 <body>
 
 <div id="page">
-	<h1>Bem vindo!</h1>
-	<div>
-		<code>Este eh meu portfolio em php</code>
-	</div>
 	<?php $this->load->view('menu');?>
+	<article id="content">
+		<p>Bem-vindo! Este eh meu portfolio em php</p>
+	</article>
+	
 </div>
 
 </body>

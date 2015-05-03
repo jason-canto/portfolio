@@ -14,3 +14,18 @@ body{
 	min-height: 500px;
 	
 }
+#main_menu{
+	padding-top: 50px;
+	width: 200px;
+	float: left;
+}
+#content{
+	width: 700px;
+	float: left;
+	padding-left: 15px;
+}
+#page:after {
+    clear: both;
+    content: "";
+    display: table;
+}
