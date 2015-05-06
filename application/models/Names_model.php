@@ -3,7 +3,7 @@
 class Names_model extends CI_Model{
 
 	public function getNames(){
-		$query = $this->db->query('Select id, name from names');
+		$query = $this->db->query('Select * from names limit 10');
 		return $query->result();
 	}
 
