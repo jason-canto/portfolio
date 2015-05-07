@@ -11,6 +11,7 @@ class Names extends CI_Controller {
     }
 
 	public function index(){
+		$this->load->database();
 		$result = $this->names_model->getNames();
 		$json = json_encode($result);
 		$data['json'] = $json;

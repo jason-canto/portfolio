@@ -3,7 +3,12 @@
 class Names_model extends CI_Model{
 
 	public function getNames(){
-		$query = $this->db->query('Select * from names limit 10');
+		try{
+			$query = $this->db->query('Select * from names limit 10');	
+		}catch(Exeception $e){
+			log_message( 'error', $e->getMessage( ) . ' in ' . $e->getFile() . ':' . $e->getLine() );
+		}
+
 		return $query->result();
 	}
 
