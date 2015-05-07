@@ -7,6 +7,7 @@
   <div id="page">
     <?php $this->load->view('menu');?>
 	<article id="content">
+		<a href="<?php echo base_url()?>content/docs/JasonCanto.pdf">Versão PDF</a>
 	    <h2>Jason Canto</h2>
 		<p>End: Rua Joao Neves da Fontoura, 110 – Centro, São Leopoldo – RS.<br>
 		Email: Jason_canto@hotmail.com<br>
