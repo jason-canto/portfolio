@@ -8,6 +8,8 @@ class Login extends CI_Controller{
 		$this->load->libriry('session');
 	}
 	public function teste(){
-		echo 'lala';
+		$user = array('name'=>'jason','password'=>'lala');
+		$this->session->set_userdata($user);
+		echo $this->session->userdata('user');
 	}
 }
