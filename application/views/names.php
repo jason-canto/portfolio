@@ -7,6 +7,18 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('content/css/style.css'); ?>">
 </head>
 <body>
+	<script>
+		$(document).ready(function(){
+		$.ajax({
+	    url: 'http://www.objectedge.com/',
+	    type: 'GET',
+		    success: function(res) {
+		        var headline = $('.dropdown-toggle').text();
+		        alert( headline);
+		    }
+		});
+	});
+	</script>
 	<div id="page">
 		<article id="content">
 			<?php $this->load->view('menu');?>
