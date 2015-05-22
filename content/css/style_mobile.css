@@ -1,0 +1,31 @@
+body{
+	background-color: #A8FFD4;
+	margin:50px 0px; padding:0px;
+	text-align:center;
+	font-family: monospace;
+}
+#page{
+	background-color: #FFFFFF;
+	max-width:1200px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	min-height: 500px;
+	
+}
+#main_menu{
+	padding-top: 50px;
+	width: 200px;
+	float: left;
+}
+#content{
+	width: 700px;
+	float: left;
+	padding-left: 15px;
+}
+#page:after {
+    clear: both;
+    content: "";
+    display: table;
+}
