@@ -6,7 +6,6 @@ body{
 }
 #page{
 	background-color: #FFFFFF;
-	max-width:1200px;
 	margin:0px auto;
 	text-align:left;
 	padding:15px;
@@ -20,12 +19,11 @@ body{
 	float: left;
 }
 #content{
-	width: 100px;
+	width: 400px;
 	float: left;
 	padding-left: 15px;
 }
 #page:after {
     clear: both;
     content: "";
-    display: table;
 }
