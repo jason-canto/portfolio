@@ -3,7 +3,7 @@
 	<meta charset="utf-8">
 	<title>Jason Canto</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('content/css/style.css'); ?>">
-	<link rel="stylesheet" type="text/css" media="only screen and (min-width:300px) and (max-width:900px)" href="<?php echo base_url('content/css/style_mobile.css'); ?>">
+	<link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 320px) and (max-device-width: 480px)" href="<?php echo base_url('content/css/style_mobile.css'); ?>">
 </head>
 <body>
 
